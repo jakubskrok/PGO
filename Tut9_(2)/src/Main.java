@@ -11,13 +11,17 @@ public class Main {
 
         System.out.println("Animals :" ); a.sleep();
         System.out.println(" ");
-        System.out.println(f.getRoam());
-        System.out.println(l.getLion() + " " + l.getMakeNoise());
-        System.out.println(c.getCat() + " " + c.getMakeNoise());
+        f.setRoam("");
+        System.out.println(l.getLion() + ":"); l.setMakeNoise("");
         System.out.println(" ");
-        System.out.println(ca.getRoam());
-        System.out.println(w.getWolf() + " " + w.getMakeNoise());
-        System.out.println(d.getDog() + " " + d.getMakeNoise());
+        System.out.println(c.getCat() + ":"); c.setMakeNoise("");
+        System.out.println(" ");
+        System.out.println(" ");
+        ca.setRoam("");
+        System.out.println(w.getWolf() + ":"); w.setMakeNoise("");
+        System.out.println(" ");
+        System.out.println(d.getDog() + ":"); d.setMakeNoise("");
+
 
     }
 }
