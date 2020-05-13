@@ -9,10 +9,8 @@ public class Lion extends Feline {
     }
 
     @Override
-    public String getMakeNoise(){
-        return "makes a noise";
+    public void setMakeNoise(String makeNoise) {
+        this.makeNoise = makeNoise;
+        System.out.println("Make noise");
     }
-
-
-
 }
