@@ -36,12 +36,14 @@ public class Car extends Vehicle {
     }
 
     @Override
-    public String getStart() {
-        return "Start your car";
+    public void setStart(String start){
+        this.start = start;
+        System.out.println("Start");
     }
 
     @Override
-    public String getStop() {
-        return "Stop your car";
+    public void setStop(String stop){
+        this.stop = stop;
+        System.out.println("Stop");
     }
 }
