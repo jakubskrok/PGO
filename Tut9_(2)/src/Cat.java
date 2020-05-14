@@ -11,6 +11,6 @@ public class Cat extends Feline {
     @Override
     public void setMakeNoise(String makeNoise) {
         this.makeNoise = makeNoise;
-        System.out.println("Make noise");
+        System.out.println("Meowing");
     }
 }
